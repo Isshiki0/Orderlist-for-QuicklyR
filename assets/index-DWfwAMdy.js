@@ -20,11 +20,12 @@ ${L}`},o=async()=>{const g=ut();if(g==="No items selected"){Il.error("Please sel
                         py-0.5 sm:py-1
                         text-sm sm:text-base
                         border border-gray-300 rounded
-                        focus:outline-none focus:ring-2 focus:ring-blue-500`,children:[N.jsx("option",{value:"L",children:"L"}),N.jsx("option",{value:"PACK",children:"PACK"}),N.jsx("option",{value:"BAG",children:"BAG"}),N.jsx("option",{value:"GAL",children:"GAL"}),N.jsx("option",{value:"JAR",children:"JAR"}),N.jsx("option",{value:"MJP",children:"MJP"}),N.jsx("option",{value:"CONT",children:"CONT"}),N.jsx("option",{value:"BOT",children:"BOT"})]})]}),N.jsx("button",{onClick:()=>el(g),className:`opacity-100 sm:opacity-0 sm:group-hover:opacity-100
-                                  p-1 sm:p-2
-                                hover:bg-gray-200
-                                  rounded
-                                  transition-opacity`,title:"Edit item",children:N.jsx(Oy,{className:"w-4 h-4 sm:w-5 sm:h-5 text-gray-600"})}),N.jsx("button",{onClick:()=>xl(g.id),className:`opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+                        focus:outline-none focus:ring-2 focus:ring-blue-500`,children:[N.jsx("option",{value:"L",children:"L"}),N.jsx("option",{value:"PACK",children:"PACK"}),N.jsx("option",{value:"BAG",children:"BAG"}),N.jsx("option",{value:"GAL",children:"GAL"}),N.jsx("option",{value:"JAR",children:"JAR"}),N.jsx("option",{value:"MJP",children:"MJP"}),N.jsx("option",{value:"CONT",children:"CONT"}),N.jsx("option",{value:"BOT",children:"BOT"})]})]}),N.jsx("button",{onClick:()=>el(g),className:`hidden sm:flex
+             opacity-0 group-hover:opacity-100
+             p-2
+             hover:bg-gray-200
+             rounded
+             transition-opacity`,title:"Edit item",children:N.jsx(Oy,{className:"w-5 sm:h-5 text-gray-600"})}),N.jsx("button",{onClick:()=>xl(g.id),className:`opacity-100 sm:opacity-0 sm:group-hover:opacity-100
                                   p-1 sm:p-2
                                  hover:bg-red-100
                                   rounded
